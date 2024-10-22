@@ -1,6 +1,13 @@
 <?php
 return [
-    "pokemonList" => [
+    "navLinks" => [
+        "img" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT_6V7i5-f6NYvjVSjGCbGitfE2bLxFHzZg&s",
+        "home" => "Home",
+        "pokedex" => "Pokedex",
+        "about" => "About"
+    ],
+
+    "pokemon" => [
         [
             "nome" => "Bulbasaur",
             "immagine" => "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",

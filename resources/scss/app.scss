@@ -1,1 +1,5 @@
 @use "~bootstrap/scss/bootstrap" as *;
+
+li {
+    list-style-type: none;
+}
