@@ -1,5 +1,32 @@
 <?php
 return [
+    "headerLinks" => [
+        [
+            "label" => "Home",
+            "url" => "#",
+        ],
+        [
+            "label" => "Pokedex",
+            "url" => "#",
+        ],
+        [
+            "label" => "About",
+            "url" => "#",
+        ],
+        [
+            "label" => "Search",
+            "url" => "#",
+        ],
+        [
+            "label" => "Login",
+            "url" => "#",
+        ],
+        [
+            "label" => "Register",
+            "url" => "#",
+        ],
+    ],
+
     "footerLinks" => [
         "Carte collezionabili" => [
             "Shop",

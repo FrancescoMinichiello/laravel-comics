@@ -4,7 +4,7 @@
             <div class="col text-white">
                 <ul>
                     <li>
-                        <h3>{{ $single_footer_link }}</h3>
+                        <h4>{{ $single_footer_link }}</h4>
                     </li>
                     @foreach ($links as $single_footer_link)
                         <li>

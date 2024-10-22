@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $pokemon = config("db.pokemon");
+    $headerLinks = config("db.headerLinks");
     $footerLinks = config("db.footerLinks");
-    return view('pages.home', compact("pokemon", "footerLinks"));
+    return view('pages.home', compact("pokemon", "headerLinks", "footerLinks"));
 });
