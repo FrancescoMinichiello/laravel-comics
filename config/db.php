@@ -1,10 +1,30 @@
 <?php
 return [
-    "navLinks" => [
-        "img" => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT_6V7i5-f6NYvjVSjGCbGitfE2bLxFHzZg&s",
-        "home" => "Home",
-        "pokedex" => "Pokedex",
-        "about" => "About"
+    "footerLinks" => [
+        "Carte collezionabili" => [
+            "Shop",
+            "Ultime Notizie",
+            "Regole del Gioco",
+            "Carte Esclusive",
+            "Tornei e Eventi",
+            "Come Giocare"
+        ],
+        "Videogiochi e App" => [
+            "Scopri Tutti i Giochi",
+            "Pokémon GO",
+            "Pokémon Unite",
+            "Pokémon Masters EX",
+            "Pokémon Café ReMix",
+            "Pokémon HOME"
+        ],
+        "Media e Contenuti" => [
+            "Serie TV Pokémon",
+            "Film Pokémon",
+            "Pokédex",
+            "Guide Strategiche",
+            "Wallpaper e Download",
+            "Collezionismo"
+        ]
     ],
 
     "pokemon" => [
