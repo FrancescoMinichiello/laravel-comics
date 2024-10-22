@@ -14,15 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
-});
-
-route::get('/pokemons', function () {
     $pokemon = config("db.pokemon");
-    return view('pages.pokemon-index', compact("pokemon"));
-});
-
-route::get('/', function () {
-    $navLinks = config("db.navLinks");
-    return view('partials.header', compact("navLinks"));
+    return view('pages.home', compact("pokemon"));
 });
