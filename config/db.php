@@ -80,7 +80,7 @@ return [
             "immagine" => "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
             "tipo" => ["Acqua"],
             "abilita" => ["Acquaiuto"],
-            "specie" => "Pokémon Miniatura Tartaruga",
+            "specie" => "Pokémon Tartaruga",
             "elementi" => ["Acqua", "Oceano"],
             "evoluzioni" => ["Wartortle", "Blastoise"],
             "descrizione" => "Squirtle è un Pokémon di tipo Acqua conosciuto per il suo guscio resistente che lo protegge dagli attacchi. Quando si ritira nel suo guscio, può sparare potenti getti d'acqua dai fori del guscio, una tecnica che lo rende un avversario temibile in battaglia. Evolvendosi in Wartortle e infine in Blastoise, Squirtle diventa una vera e propria macchina da guerra. La sua abilità Acquaiuto lo rende ancora più forte quando è ferito, aumentando la potenza dei suoi attacchi di tipo Acqua in momenti critici."
