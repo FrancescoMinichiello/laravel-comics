@@ -18,4 +18,11 @@ Route::get('/', function () {
     $headerLinks = config("db.headerLinks");
     $footerLinks = config("db.footerLinks");
     return view('pages.home', compact("pokemon", "headerLinks", "footerLinks"));
-});
+})->name('home');
+
+Route::get('/pokemon', function () {
+    $pokemon = config("db.pokemon");
+    $headerLinks = config("db.headerLinks");
+    $footerLinks = config("db.footerLinks");
+    return view('pages.pokemon', compact("pokemon", "headerLinks", "footerLinks"));
+})->name('pokemon');

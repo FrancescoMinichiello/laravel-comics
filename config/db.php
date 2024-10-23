@@ -3,7 +3,7 @@ return [
     "headerLinks" => [
         [
             "label" => "Home",
-            "url" => "#",
+            "url" => "/",
         ],
         [
             "label" => "Pokedex",
