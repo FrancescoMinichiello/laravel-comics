@@ -5,11 +5,12 @@
 @section('main-content')
     <div class="container">
         <div class="row justify-content-center gap-4">
-            @foreach ($pokemon as $single_pokemon)
+            @foreach ($pokemons as $index => $single_pokemon)
                 <div class="card" style="width: 20rem;">
-                    <a href="{{ route('pokemon') }}">
-                        <span
-                            class="text-center badge text-bg-info p-2 rounded-4 fs-5 fw-semibold text-white mt-2">{{ $single_pokemon['nome'] }}
+                    <a href="{{ route('pokemon', $index) }}">
+                        <span class="text-center badge text-bg-success p-2 rounded-4 fs-5 fw-semibold text-white mt-2">Guarda
+                            info:
+                            {{ $single_pokemon['nome'] }}
                         </span>
                     </a>
                     <img class="card-img-top" src="{{ $single_pokemon['immagine'] }}" alt="{{ $single_pokemon['nome'] }}">

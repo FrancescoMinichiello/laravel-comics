@@ -14,14 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pokemon = config("db.pokemon");
+    $pokemons = config("db.pokemon");
     $headerLinks = config("db.headerLinks");
     $footerLinks = config("db.footerLinks");
-    return view('pages.home', compact("pokemon", "headerLinks", "footerLinks"));
+    return view('pages.home', compact("pokemons", "headerLinks", "footerLinks"));
 })->name('home');
 
-Route::get('/pokemon', function () {
-    $pokemon = config("db.pokemon");
+Route::get('/pokemon/{index}', function (string $index) {
+    $pokemons = config("db.pokemon");
+    $pokemon = $pokemons[$index];
     $headerLinks = config("db.headerLinks");
     $footerLinks = config("db.footerLinks");
     return view('pages.pokemon', compact("pokemon", "headerLinks", "footerLinks"));
