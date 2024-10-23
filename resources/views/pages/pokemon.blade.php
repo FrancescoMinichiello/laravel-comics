@@ -3,7 +3,13 @@
 @section('main-content')
     <div class="container">
         <div class="row">
-
+            <div class="col-1 d-flex justify-content-end align-items-center">
+                <span class="mt-3">
+                    <a class="back-icon" href="/">
+                        &#8619;
+                    </a>
+                </span>
+            </div>
             <div class="col card">
                 <span class="text-center badge text-bg-info p-2 rounded-4 fs-5 fw-semibold text-white mt-2">
                     {{ $pokemon['nome'] }}
